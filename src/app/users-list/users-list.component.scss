@@ -1,0 +1,37 @@
+.user-list {
+  .create {
+    background-color: #286090;
+    padding: 20px;
+    .create-btn {
+      float: right;
+      background-color: azure;
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+  .user-list-card {
+    margin: 20px 0;
+    ul {
+      list-style: none;
+      .user-card {
+        margin: 30px 0;
+        .thumbnail {
+          img {
+            border-radius: 50%;
+          }
+          .caption {
+            text-align: center;
+          }
+        }
+        .actions {
+          text-align: -webkit-center;
+          button{
+              i{
+                margin: 5px;
+              }
+          }
+        }
+      }
+    }
+  }
+}

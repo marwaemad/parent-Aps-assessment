@@ -1,0 +1,23 @@
+.update-user{
+    form{
+        margin-top: 120px;
+        border: 1px solid #286090;
+        padding: 30px;
+        background-color: beige;
+        position: relative;
+        img{
+            border-radius: 50%;
+        }
+        .form-input{
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            .form-group{
+                margin-bottom: 20px;
+            }
+        }
+        .update-btn{
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<div class="col-xs-12 create-user">
+  <form action="" class="col-xs-8 col-xs-push-2" #f="ngForm" (ngSubmit)="addUser(f)">
+    <div class="form-group col-xs-12">
+      <label class="col-md-3 control-label" for="name">First Name</label>
+      <div class="col-md-9">
+        <input id="fname" name="name" type="text" placeholder="Your name" class="form-control" required [(ngModel)]="newUser.first_name"
+        />
+      </div>
+    </div>
+    <div class="form-group col-xs-12">
+      <label class="col-md-3 control-label" for="name">Last Name</label>
+      <div class="col-md-9">
+        <input id="lname" name="name" type="text" placeholder="Your name" class="form-control" required [(ngModel)]="newUser.last_name"
+        />
+      </div>
+    </div>
+    <div class="form-group col-xs-12">
+      <label class="col-md-3 control-label" for="name">Id</label>
+      <div class="col-md-9">
+        <input id="id" name="name" type="text" placeholder="Your name" class="form-control" required [(ngModel)]="newUser.id" />
+      </div>
+    </div>
+    <div class="form-group col-xs-12">
+      <label class="col-md-3 control-label" for="name">avatart URL</label>
+      <div class="col-md-9">
+        <input id="avatar" name="name" type="text" placeholder="Your name" class="form-control" required [(ngModel)]="newUser.avatar"
+        />
+      </div>
+    </div>
+    <div class="col-xs-12  create-btn">
+      <button type="submit" class="btn btn-success" [disabled]="!f.valid">Submit</button>
+
+    </div>
+  </form>
+
+</div>
